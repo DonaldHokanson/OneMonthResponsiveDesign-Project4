@@ -1,0 +1,109 @@
+/*--Navigation--*/
+
+nav.large ul{
+	float: right;
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	margin-right: 30px;
+}
+
+nav.large ul li{
+	height: 65px;
+	padding-top: 21px;
+	padding-left: 10px;
+	border-left: 1px solid rgb(220, 224, 224);
+}
+
+nav.large ul li a{
+	text-decoration: none;
+	color: inherit;
+	font-weight: bold;
+}
+
+.burger{
+	display: none;
+}
+
+/*--Container--*/
+
+.container{
+	margin: 0 auto;
+	width: 720px;
+}
+
+/*--Announcement--*/
+
+.announcement{
+	display: block;
+	background: rgb(194,228,231);
+	margin-top: 1.5rem;
+	padding: 1.5rem 2rem;
+}
+
+.announcement .imagery{
+	float: left;
+	margin-right: 1rem;
+}
+
+.announcement .info h3{
+	font-weight: bold;
+}
+
+.announcement .info p{
+	padding-top: 5px;
+}
+
+/*--Column--*/
+
+.column{
+	display: block;
+	float: left;
+	margin: 20px 0;
+}
+
+/*--Profile--*/
+
+.profile{
+	width: 195px;
+	margin-right: 25px;
+}
+
+
+/*--Updates--*/
+
+section.updates{
+	width: 500px;
+}
+
+.message-text .subject{
+	display: block;
+	font-weight: bold;
+}
+
+.message .component, .message .photo, .message .details{
+	float: left;
+}
+
+.message .sender{
+	width: 140px;
+	margin-right: 10px;
+}
+
+.message .photo{
+	margin-right: 10px;
+}
+
+.message .message-text{
+	width: 220px;
+	margin-right: 5px;
+}
+.message .booking-details{
+	width: 80px;
+}
+
+/*--nav.small--*/
+
+nav.small{
+	display: none;
+}
